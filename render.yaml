@@ -2,11 +2,14 @@ databases:
   - name: photo_app
     databaseName: photo_app
     user: photo_app
+    region: singapore
 
 services:
   - type: web
     name: photo_app
     env: ruby
+    region: singapore
+    plan: free
     buildCommand: './bin/render-build.sh'
     startCommand: 'bundle exec puma -C config/puma.rb'
     envVars:
