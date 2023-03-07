@@ -10,6 +10,7 @@ gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'jquery-rails'
+gem 'stripe'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
