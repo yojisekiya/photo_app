@@ -52,3 +52,5 @@ $(document).on('ready turbolinks:load', function () {
     return false;
   };
 });
+
+console.log('hello');
