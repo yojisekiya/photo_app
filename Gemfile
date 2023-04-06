@@ -63,4 +63,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Added
-gem "net-http"
+gem 'net-http'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog-aws'
